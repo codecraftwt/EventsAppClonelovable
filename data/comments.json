@@ -1,0 +1,79 @@
+[
+    {
+        "id": "1",
+        "authorId": "2",
+        "content": "Just signed up! Can't wait to help at this event.",
+        "timestamp": "45m ago",
+        "likes": 3,
+        "postId": "1"
+    },
+    {
+        "id": "2",
+        "authorId": "3",
+        "content": "Such an important cause! Bringing my whole family.",
+        "timestamp": "30m ago",
+        "likes": 5,
+        "postId": "1"
+    },
+    {
+        "id": "3",
+        "authorId": "4",
+        "content": "I volunteered here last month - amazing organization!",
+        "timestamp": "20m ago",
+        "likes": 2,
+        "postId": "1"
+    },
+    {
+        "id": "4",
+        "authorId": "7",
+        "content": "This looks incredible! How can I get involved in future projects?",
+        "timestamp": "2h ago",
+        "likes": 8,
+        "postId": "3"
+    },
+    {
+        "id": "5",
+        "authorId": "8",
+        "content": "Amazing work! Community art projects like this really strengthen neighborhoods.",
+        "timestamp": "3h ago",
+        "likes": 12,
+        "postId": "3"
+    },
+    {
+        "id": "6",
+        "authorId": "1",
+        "content": "I'd love to help! I have some Python experience. DMing you now.",
+        "timestamp": "4h ago",
+        "likes": 4,
+        "postId": "4"
+    },
+    {
+        "id": "7",
+        "authorId": "5",
+        "content": "This is so inspiring! Teaching kids about sustainability is so important.",
+        "timestamp": "6h ago",
+        "likes": 15,
+        "postId": "5"
+    },
+    {
+        "id": "8",
+        "authorId": "2",
+        "content": "Would love to visit your garden sometime! My kids would be fascinated.",
+        "timestamp": "7h ago",
+        "likes": 7,
+        "postId": "5"
+    },
+    {
+        "id": "9",
+        "authorId": "6",
+        "content": "Community gardens are such a great way to bring people together! 🌱",
+        "timestamp": "8h ago",
+        "likes": 9,
+        "postId": "5"
+    }
+]
+
+
+
+
+

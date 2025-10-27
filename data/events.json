@@ -1,0 +1,121 @@
+[
+    {
+        "id": "1",
+        "title": "Neighborhood Block Party",
+        "description": "Join neighbors for food, music, and community connection in a celebration of local unity.",
+        "date": "2025-10-13",
+        "time": "9:00 AM",
+        "location": "Community Center",
+        "category": "Community",
+        "image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=400&h=200&fit=crop",
+        "attendees": 290,
+        "organizerId": "1",
+        "tags": [
+            "Community",
+            "Food",
+            "Music"
+        ],
+        "price": "Free",
+        "maxAttendees": 500
+    },
+    {
+        "id": "2",
+        "title": "Community Garden Harvest Festival",
+        "description": "Celebrate the season's bounty with fresh produce, gardening workshops, and local food vendors.",
+        "date": "2025-10-13",
+        "time": "10:00 AM",
+        "location": "Central Park",
+        "category": "Community",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=200&fit=crop",
+        "attendees": 172,
+        "organizerId": "5",
+        "tags": [
+            "Community",
+            "Gardening",
+            "Food"
+        ],
+        "price": "Free",
+        "maxAttendees": 300
+    },
+    {
+        "id": "3",
+        "title": "Community Food Drive - Second Harvest Heartland",
+        "description": "Join us for a weekend food sorting event at our Heartland warehouse. Help pack meals for families in need across Minneapolis.",
+        "date": "2025-10-20",
+        "time": "8:00 AM",
+        "location": "Second Harvest Heartland Warehouse",
+        "category": "Volunteering",
+        "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=400&h=200&fit=crop",
+        "attendees": 45,
+        "organizerId": "4",
+        "tags": [
+            "Volunteering",
+            "Food Security",
+            "Community"
+        ],
+        "price": "Free",
+        "maxAttendees": 100
+    },
+    {
+        "id": "4",
+        "title": "Small Business Networking Mixer",
+        "description": "Connect with local entrepreneurs and small business owners. Share ideas, resources, and build lasting partnerships.",
+        "date": "2025-10-15",
+        "time": "6:00 PM",
+        "location": "Minneapolis Convention Center",
+        "category": "Networking",
+        "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=400&h=200&fit=crop",
+        "attendees": 89,
+        "organizerId": "2",
+        "tags": [
+            "Networking",
+            "Small Business",
+            "Entrepreneurship"
+        ],
+        "price": "$15",
+        "maxAttendees": 150
+    },
+    {
+        "id": "5",
+        "title": "Environmental Justice Workshop",
+        "description": "Learn about environmental justice issues in Minneapolis and how to advocate for change in your community.",
+        "date": "2025-10-18",
+        "time": "2:00 PM",
+        "location": "Minneapolis Public Library",
+        "category": "Environmental",
+        "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=200&fit=crop",
+        "attendees": 67,
+        "organizerId": "5",
+        "tags": [
+            "Environment",
+            "Social Justice",
+            "Education"
+        ],
+        "price": "Free",
+        "maxAttendees": 100
+    },
+    {
+        "id": "6",
+        "title": "Social Dinners: Climate Action",
+        "description": "Join us for a delicious meal while discussing climate action strategies for Minneapolis communities.",
+        "date": "2025-10-22",
+        "time": "7:00 PM",
+        "location": "The Commons Restaurant",
+        "category": "Social Dinners",
+        "image": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&h=200&fit=crop",
+        "attendees": 34,
+        "organizerId": "6",
+        "tags": [
+            "Climate",
+            "Social",
+            "Dinner"
+        ],
+        "price": "$25",
+        "maxAttendees": 50
+    }
+]
+
+
+
+
+

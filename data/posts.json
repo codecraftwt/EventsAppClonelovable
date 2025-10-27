@@ -1,0 +1,75 @@
+[
+    {
+        "id": "1",
+        "authorId": "1",
+        "content": "Excited to share this volunteer opportunity! Second Harvest Heartland is hosting a community food drive next weekend. Sign up and help make a difference!",
+        "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=400&h=200&fit=crop",
+        "timestamp": "1h ago",
+        "likes": 127,
+        "comments": [
+            "1",
+            "2",
+            "3"
+        ],
+        "eventId": "3",
+        "type": "event_share"
+    },
+    {
+        "id": "2",
+        "authorId": "5",
+        "content": "Tree Trust is hiring Community Engagement Coordinators! If you're passionate about urban forestry and environmental justice in Minneapolis, this is the perfect opportunity.",
+        "image": null,
+        "timestamp": "3h ago",
+        "likes": 89,
+        "comments": [],
+        "eventId": null,
+        "type": "job_post"
+    },
+    {
+        "id": "3",
+        "authorId": "6",
+        "content": "Just finished organizing our community mural project! So proud of how our neighborhood came together to create something beautiful. Art really does bring people together! 🎨",
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=400&h=200&fit=crop",
+        "timestamp": "5h ago",
+        "likes": 156,
+        "comments": [
+            "4",
+            "5"
+        ],
+        "eventId": null,
+        "type": "community_update"
+    },
+    {
+        "id": "4",
+        "authorId": "2",
+        "content": "Looking for volunteers to help with our coding bootcamp for underserved youth. If you have programming skills and want to make a difference, DM me!",
+        "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=400&h=200&fit=crop",
+        "timestamp": "7h ago",
+        "likes": 78,
+        "comments": [
+            "6"
+        ],
+        "eventId": null,
+        "type": "volunteer_request"
+    },
+    {
+        "id": "5",
+        "authorId": "3",
+        "content": "Our school's community garden is thriving! The kids are so excited to see their vegetables growing. Teaching them about sustainable living and healthy eating. 🌱",
+        "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=200&fit=crop",
+        "timestamp": "9h ago",
+        "likes": 203,
+        "comments": [
+            "7",
+            "8",
+            "9"
+        ],
+        "eventId": null,
+        "type": "community_update"
+    }
+]
+
+
+
+
+

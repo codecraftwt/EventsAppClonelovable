@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "name": "MPLS Environmental Group",
+        "description": "Environmental activists working for a greener Minneapolis",
+        "memberCount": 14,
+        "newMessages": 8,
+        "image": "https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=100&h=100&fit=crop",
+        "category": "Environmental",
+        "icon": "leaf.fill",
+        "color": "#4CAF50"
+    },
+    {
+        "id": "2",
+        "name": "Minneapolis Food Security Network",
+        "description": "Working together to end hunger in our community",
+        "memberCount": 23,
+        "newMessages": 12,
+        "image": "https://images.unsplash.com/photo-1593113598332-cd288d649433?w=100&h=100&fit=crop",
+        "category": "Food Security",
+        "icon": "fork.knife",
+        "color": "#FF9800"
+    },
+    {
+        "id": "3",
+        "name": "Tech for Good MPLS",
+        "description": "Using technology to solve community challenges",
+        "memberCount": 18,
+        "newMessages": 5,
+        "image": "https://images.unsplash.com/photo-1511578314322-379afb476865?w=100&h=100&fit=crop",
+        "category": "Technology",
+        "icon": "laptopcomputer",
+        "color": "#2196F3"
+    },
+    {
+        "id": "4",
+        "name": "Community Arts Collective",
+        "description": "Supporting local artists and creative community projects",
+        "memberCount": 31,
+        "newMessages": 15,
+        "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop",
+        "category": "Arts",
+        "icon": "paintbrush.fill",
+        "color": "#E91E63"
+    }
+]
+
+
+
+
+

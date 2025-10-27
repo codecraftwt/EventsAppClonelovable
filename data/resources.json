@@ -1,0 +1,95 @@
+[
+    {
+        "id": "1",
+        "title": "How to Network Effectively in Minneapolis",
+        "type": "Article",
+        "duration": "6 min read",
+        "category": "Networking",
+        "description": "Learn the best practices for building professional relationships in the Minneapolis community.",
+        "url": "https://example.com/networking-guide",
+        "icon": "doc.text.fill",
+        "color": "#2196F3"
+    },
+    {
+        "id": "2",
+        "title": "Best Practices for Hosting Community Events",
+        "type": "Video",
+        "duration": "12 min",
+        "category": "Event Planning",
+        "description": "A comprehensive guide to organizing successful community events.",
+        "url": "https://example.com/event-planning-video",
+        "icon": "video.fill",
+        "color": "#4CAF50"
+    },
+    {
+        "id": "3",
+        "title": "Building Meaningful Connections in Your City",
+        "type": "Podcast",
+        "duration": "35 min",
+        "category": "Community",
+        "description": "Podcast episode about creating lasting relationships through community involvement.",
+        "url": "https://example.com/community-podcast",
+        "icon": "headphones",
+        "color": "#FF9800"
+    },
+    {
+        "id": "4",
+        "title": "Minneapolis Volunteer Opportunities Guide",
+        "type": "Article",
+        "duration": "8 min read",
+        "category": "Volunteering",
+        "description": "Complete guide to volunteer opportunities in Minneapolis.",
+        "url": "https://example.com/volunteer-guide",
+        "icon": "hand.raised.fill",
+        "color": "#2196F3"
+    },
+    {
+        "id": "5",
+        "title": "Social Impact Through Small Business Support",
+        "type": "Article",
+        "duration": "10 min read",
+        "category": "Small Business",
+        "description": "How supporting local businesses creates positive social impact.",
+        "url": "https://example.com/small-business-impact",
+        "icon": "building.2.fill",
+        "color": "#2196F3"
+    },
+    {
+        "id": "6",
+        "title": "Creating Inclusive Community Spaces",
+        "type": "Video",
+        "duration": "18 min",
+        "category": "Community Building",
+        "description": "Strategies for making community spaces welcoming to everyone.",
+        "url": "https://example.com/inclusive-spaces",
+        "icon": "person.3.fill",
+        "color": "#4CAF50"
+    },
+    {
+        "id": "7",
+        "title": "Environmental Justice Toolkit",
+        "type": "Toolkit",
+        "duration": "Download",
+        "category": "Environmental",
+        "description": "Comprehensive toolkit for environmental justice advocacy.",
+        "url": "https://example.com/env-justice-toolkit",
+        "icon": "leaf.fill",
+        "color": "#4CAF50"
+    },
+    {
+        "id": "8",
+        "title": "Minneapolis History & Culture Guide",
+        "type": "Guide",
+        "duration": "15 min read",
+        "category": "Minneapolis Guide",
+        "description": "Explore the rich history and culture of Minneapolis.",
+        "url": "https://example.com/mpls-history",
+        "icon": "book.fill",
+        "color": "#8B5CF6"
+    }
+]
+
+
+
+
+

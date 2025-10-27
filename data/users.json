@@ -1,0 +1,127 @@
+[
+    {
+        "id": "1",
+        "name": "Sarah Mitchell",
+        "age": 27,
+        "location": "Minneapolis, MN",
+        "occupation": "Marketing Director",
+        "profileImage": "https://images.unsplash.com/photo-1494790108755-2616b612b786?w=150&h=150&fit=crop&crop=face",
+        "bio": "Passionate about community building and environmental justice",
+        "interests": [
+            "Community",
+            "Environment",
+            "Volunteering"
+        ],
+        "verified": true
+    },
+    {
+        "id": "2",
+        "name": "Mike Johnson",
+        "age": 32,
+        "location": "Minneapolis, MN",
+        "occupation": "Software Engineer",
+        "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
+        "bio": "Tech enthusiast who loves giving back to the community",
+        "interests": [
+            "Technology",
+            "Volunteering",
+            "Networking"
+        ],
+        "verified": true
+    },
+    {
+        "id": "3",
+        "name": "Emily Chen",
+        "age": 28,
+        "location": "Minneapolis, MN",
+        "occupation": "Teacher",
+        "profileImage": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
+        "bio": "Elementary school teacher passionate about education equity",
+        "interests": [
+            "Education",
+            "Social Justice",
+            "Community"
+        ],
+        "verified": true
+    },
+    {
+        "id": "4",
+        "name": "David Brown",
+        "age": 35,
+        "location": "Minneapolis, MN",
+        "occupation": "Non-profit Director",
+        "profileImage": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face",
+        "bio": "Leading local food security initiatives",
+        "interests": [
+            "Food Security",
+            "Community",
+            "Volunteering"
+        ],
+        "verified": true
+    },
+    {
+        "id": "5",
+        "name": "Marcus Thompson",
+        "age": 30,
+        "location": "Minneapolis, MN",
+        "occupation": "Environmental Scientist",
+        "profileImage": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face",
+        "bio": "Urban forestry advocate and community organizer",
+        "interests": [
+            "Environment",
+            "Urban Planning",
+            "Community"
+        ],
+        "verified": true
+    },
+    {
+        "id": "6",
+        "name": "Lisa Rodriguez",
+        "age": 26,
+        "location": "Minneapolis, MN",
+        "occupation": "Graphic Designer",
+        "profileImage": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&h=150&fit=crop&crop=face",
+        "bio": "Creative designer focused on social impact projects",
+        "interests": [
+            "Design",
+            "Social Justice",
+            "Art"
+        ],
+        "verified": true
+    },
+    {
+        "id": "7",
+        "name": "Alex Kim",
+        "age": 29,
+        "location": "Minneapolis, MN",
+        "occupation": "Community Organizer",
+        "profileImage": "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=150&h=150&fit=crop&crop=face",
+        "bio": "Building bridges between communities through organizing",
+        "interests": [
+            "Community",
+            "Social Justice",
+            "Activism"
+        ],
+        "verified": true
+    },
+    {
+        "id": "8",
+        "name": "Jordan Taylor",
+        "age": 31,
+        "location": "Minneapolis, MN",
+        "occupation": "Urban Planner",
+        "profileImage": "https://images.unsplash.com/photo-1507591064344-4c6ce005b128?w=150&h=150&fit=crop&crop=face",
+        "bio": "Creating sustainable and inclusive urban spaces",
+        "interests": [
+            "Urban Planning",
+            "Environment",
+            "Community"
+        ],
+        "verified": true
+    }
+]
+
+
+
+
+
