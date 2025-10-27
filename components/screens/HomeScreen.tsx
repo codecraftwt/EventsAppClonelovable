@@ -18,6 +18,16 @@ export default function HomeScreen() {
 
     const categories = ['All', 'Events', 'Jobs', 'Articles', 'Photos'];
 
+    // Filter posts based on active category
+    const filteredPosts = activeCategory === 'All'
+        ? posts
+        : posts.filter(post => {
+            // Map category names to post types (case-insensitive)
+            const postType = post.type?.toLowerCase();
+            const selectedCategory = activeCategory.toLowerCase();
+            return postType === selectedCategory;
+        });
+
     if (loading) {
         return (
             <SafeAreaView style={[styles.container, { backgroundColor: colors.background }]}>
@@ -62,8 +72,8 @@ export default function HomeScreen() {
             />
 
             <ScrollView style={styles.feedContainer}>
-                {/* Group Highlights */}
-                {groups.map((group) => (
+                {/* Group Highlights - Only show when "All" category is selected */}
+                {activeCategory === 'All' && groups.map((group) => (
                     <TouchableOpacity key={group.id} style={[styles.groupCard, { backgroundColor: '#8B5CF6' }]}>
                         <View style={styles.groupIcon}>
                             <IconSymbol name="person.3.fill" size={20} color="white" />
@@ -79,14 +89,26 @@ export default function HomeScreen() {
                 ))}
 
                 {/* Posts */}
-                {posts.map((post: any) => (
-                    <PostCard
-                        key={post.id}
-                        post={post}
-                        onLike={() => console.log('Like post', post.id)}
-                        onComment={() => console.log('Comment on post', post.id)}
-                    />
-                ))}
+                {filteredPosts.length > 0 ? (
+                    filteredPosts.map((post: any) => (
+                        <PostCard
+                            key={post.id}
+                            post={post}
+                            onLike={() => console.log('Like post', post.id)}
+                            onComment={() => console.log('Comment on post', post.id)}
+                        />
+                    ))
+                ) : (
+                    <View style={styles.emptyContainer}>
+                        <IconSymbol name="doc.text" size={48} color={colors.text} />
+                        <Text style={[styles.emptyText, { color: colors.text }]}>
+                            No {activeCategory.toLowerCase()} posts found
+                        </Text>
+                        <Text style={[styles.emptySubtext, { color: colors.text }]}>
+                            Try selecting a different category
+                        </Text>
+                    </View>
+                )}
             </ScrollView>
         </SafeAreaView>
     );
@@ -153,5 +175,24 @@ const styles = StyleSheet.create({
     errorText: {
         fontSize: 16,
         textAlign: 'center',
+    },
+    emptyContainer: {
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        paddingVertical: 60,
+        paddingHorizontal: 20,
+        gap: 12,
+    },
+    emptyText: {
+        fontSize: 18,
+        fontWeight: '600',
+        textAlign: 'center',
+        marginTop: 16,
+    },
+    emptySubtext: {
+        fontSize: 14,
+        textAlign: 'center',
+        opacity: 0.7,
     },
 });

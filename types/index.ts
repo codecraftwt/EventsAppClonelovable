@@ -36,6 +36,7 @@ export interface Post {
     likes: number;
     comments: Comment[];
     event?: Event;
+    type?: 'events' | 'jobs' | 'articles' | 'photos';
 }
 
 export interface Comment {
