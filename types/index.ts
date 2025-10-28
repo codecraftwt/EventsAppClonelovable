@@ -2,10 +2,12 @@
 
 export interface User {
     id: string;
+    uid: string; // Firebase Auth UID
     name: string;
     age?: number;
     location: string;
     occupation?: string;
+    sexuality?: string;
     profileImage?: string;
     bio?: string;
     interests: string[];

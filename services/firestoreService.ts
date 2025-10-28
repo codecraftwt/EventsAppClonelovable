@@ -52,6 +52,23 @@ export class UserService {
         }
     }
 
+    static async getUserByUid(uid: string): Promise<User | null> {
+        try {
+            const usersRef = collection(db, COLLECTIONS.USERS);
+            const q = query(usersRef, where('uid', '==', uid));
+            const querySnapshot = await getDocs(q);
+            
+            if (!querySnapshot.empty) {
+                const userDoc = querySnapshot.docs[0];
+                return { id: userDoc.id, ...userDoc.data() } as User;
+            }
+            return null;
+        } catch (error) {
+            console.error('Error fetching user by UID:', error);
+            throw error;
+        }
+    }
+
     static async createUser(userData: Omit<User, 'id'>): Promise<string> {
         try {
             const docRef = await addDoc(collection(db, COLLECTIONS.USERS), userData);
